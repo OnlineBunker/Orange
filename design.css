@@ -1,0 +1,442 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+html,body {
+    height: 100%;
+    width: 100%;
+    background-image: url(orangeposter1.png);
+}
+#on_the_top{
+    width: 100%;
+    height: 5%;
+    position: absolute;
+    background-color: #000000;
+}
+#Heading_Orange{
+    font-family: 'Indie Flower', cursive;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+    width: 50px;
+    margin-left: 20px;
+}
+#Heading_Dubbed{
+    font-family: 'Indie Flower', cursive;
+    color: #d5015b;
+    margin-top: -55px;
+    margin-left: 130px;
+    font-size: 40px;
+    cursor: pointer;
+    width: 40px;
+}
+#empty{
+    width: 100%;
+    height: 45%;
+}
+#middle_navbar{
+    width: 100%;
+    height: 5%;
+    background-color: #222222;
+}
+#in_the_middle{
+    position: absolute;
+    height: 5%;
+    width: 100%;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    justify-content: center;
+    background-position: center;
+    background-attachment: fixed;
+}
+#summary_head{
+    color: #ffffff;
+    font-size: 26px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+    /* border: 3px; */
+    /* width: 85px; */
+    /* height: 25px; */
+    /* background: #151515; */
+}
+#summary_head:hover{
+    color: #d501598f;
+    transition: 0.5s;
+    /* border-bottom-style: solid; */
+    /* border-bottom-color: #d501598f; */
+    /* transition: 1s; */
+    /* height: 50px; */
+    /* font-size: 26px; */
+    /* width: 122px; */
+}
+
+
+
+#empty1{
+    width: 100%;
+    height: 50%;
+    background: rgba(0,0,0, 0.6);
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    justify-content: center;
+}
+
+#mini{
+    height: 400px;
+    width: auto;
+    border: 2px solid black;
+    margin-left: -300px;
+    margin-top: -300px;
+}
+
+#summary_para{
+    color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    width: 30%;
+    margin-left: 150px;
+}
+#bright_white{
+    color: white;
+    margin-left: 60px;
+    margin-top: -200px;
+}
+
+#light_white{
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: -200px;
+}
+
+#type_type{
+    color: white;
+    margin-left: -100px;
+    margin-top: -150px;
+}
+
+#type_tv{
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: -150px;
+}
+
+#Episodes_number{
+    color: white;
+    margin-left: -55px;
+    margin-top: -100px;
+}
+
+#episodes_count{
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: -100px;
+}
+
+#status{
+    color: white;
+    margin-left: -78px;
+    margin-top: -50px;
+}
+
+#status_airing{
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: -50px;
+}
+
+#air{
+    color: white;
+    margin-left: -143px;
+    margin-top: 0px;
+}
+
+#air_date{
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 0px;
+}
+
+#studio{
+    color: white;
+    margin-top: 50px;
+    margin-left: -224px;
+}
+
+#studio_name{
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 50px;
+}
+
+#duration{
+    color: white;
+    margin-top: 100px;
+    margin-left: -205px;
+}
+
+#duration_timing{
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 100px;
+}
+
+
+
+#episodes{
+    /* width: 1920px;
+    height: 1080px; */
+    background-image: url("orangeposter2.png");
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    justify-content: center;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+} 
+
+
+
+#img1{
+    border-radius: 6px;
+    height: 216px;
+    width: 384px;
+    margin-left: 165px;
+    margin-top: -700px;
+    cursor: pointer;
+    position: relative;
+}
+#img1:hover{
+    transform: translateY(50px);
+    filter: brightness(0.5);
+    transition: 0.4s;
+}
+
+#img2{
+    border-radius: 6px;
+    height: 216px;
+    width: 384px;
+    margin-left: 20px;
+    margin-top: -700px;
+    cursor: pointer;
+    position: relative;
+}
+#img2:hover{
+    transform: translateY(50px);
+    filter: brightness(0.5);
+    transition: 0.4s;
+}
+
+#img3{
+    border-radius: 6px;
+    height: 216px;
+    width: 384px;
+    margin-left: 20px;
+    margin-top: -700px;
+    cursor: pointer;
+    position: relative;
+}
+#img3:hover{
+    transform: translateY(50px);
+    filter: brightness(0.5);
+    transition: 0.4s;
+}
+
+#img4{
+    border-radius: 6px;
+    height: 216px;
+    width: 384px;   
+    margin-left: -1192px;
+    margin-top: -250px;
+    cursor: pointer;
+    position: relative;
+}
+#img4:hover{
+    transform: translateY(50px);
+    filter: brightness(0.5);
+    transition: 0.4s;
+}
+
+#img5{
+    border-radius: 6px;
+    height: 216px;
+    width: 384px;
+    margin-left: 20px;
+    margin-top: -250px;
+    cursor: pointer;
+    position: relative;
+}
+#img5:hover{
+    transform: translateY(50px);
+    filter: brightness(0.5);
+    transition: 0.4s;
+}
+
+#img6{
+    border-radius: 6px;
+    height: 216px;
+    width: 384px;
+    margin-left: 20px;
+    margin-top: -250px;
+    cursor: pointer;
+    position: relative;
+}
+#img6:hover{
+    transform: translateY(50px);
+    filter: brightness(0.5);
+    transition: 0.4s;
+}
+
+#img7{
+    border-radius: 6px;
+    height: 216px;
+    width: 384px;
+    margin-top: 200px;
+    margin-left: -1192px;
+    cursor: pointer;
+    position: relative;
+}
+#img7:hover{
+    transform: translateY(50px);
+    filter: brightness(0.5);
+    transition: 0.4s;
+}
+
+#img8{
+    border-radius: 6px;
+    height: 216px;
+    width: 384px;
+    margin-top: 200px;
+    margin-left: 20px;
+    cursor: pointer;
+    position: relative;
+}
+#img8:hover{
+    transform: translateY(50px);
+    filter: brightness(0.5);
+    transition: 0.4s;
+}
+
+#img9{
+    border-radius: 6px;
+    height: 216px;
+    width: 384px;
+    margin-top: 200px;
+    margin-left: 20px;
+    cursor: pointer;
+    position: relative;
+}
+#img9:hover{
+    transform: translateY(50px);
+    filter: brightness(0.5);
+    transition: 0.4s;
+}
+
+#img10{
+    border-radius: 6px;
+    height: 216px;
+    width: 384px;
+    margin-top: 650px;
+    margin-left: -1192;
+    cursor: pointer;
+    position: relative;
+}
+#img10:hover{
+    transform: translateY(50px);
+    filter: brightness(0.5);
+    transition: 0.4s;
+}
+
+#img11{
+    border-radius: 6px;
+    height: 216px;
+    width: 384px;
+    margin-top: 650px;
+    margin-left: 20px;
+    cursor: pointer;
+    position: relative;
+}
+#img11:hover{
+    transform: translateY(50px);
+    filter: brightness(0.5);
+    transition: 0.4s;
+}
+
+#img12{
+    border-radius: 6px;
+    height: 216px;
+    width: 384px;
+    margin-top: 650px;
+    margin-left: 20px;
+    cursor: pointer;
+    position: relative;
+}
+#img12:hover{
+    transform: translateY(50px);
+    filter: brightness(0.5);
+    transition: 0.4s;
+}
+
+#img13{
+    border-radius: 6px;
+    height: 216px;
+    width: 384px;
+    margin-left: 50px;
+    cursor: pointer;
+    position: relative;
+}
+#img13:hover{
+    transform: translateY(50px);
+    filter: brightness(0.5);
+    transition: 0.4s;
+}
+
+#heading_orange{
+    text-decoration: none;
+    color: white;
+}
+#heading_dubbed{
+    text-decoration: none;
+    color: #d5015b;
+    margin-left: 75px;
+}
+.one{
+    margin-top: 480px;
+    margin-left: 24px;
+}
+.two{
+    margin-top: 480px;
+}
+.three{
+    margin-top: 480px;
+}
+.four{
+    margin-top: 30px;
+}
+.five{
+    margin-left: -808px;
+    margin-top: 30px;
+}
+.six{
+    margin-top: 30px;
+}
+.seven{
+    margin-top: 10px;
+}
+.eight{
+    margin-top: 10px;
+    margin-left: -808px;
+}
+.nine{
+    margin-top: 10px;
+}
+.ten{
+    margin-top: 10px;
+}
+.eleven{
+    margin-top: 10px;
+    margin-left: -808px;
+}
+.twelve{
+    margin-top: 10px;
+}
